@@ -1,0 +1,233 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.homeImage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+}
+
+.homeFrame {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.homeForm {
+    width: 400px;
+    height: 400px;
+    background: #e0e1dd;
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 5%;
+    padding: 13px;
+    justify-content: space-between;
+}
+
+.homeTitle {
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+}
+
+.homeSpan {
+    padding-top: 25px;
+    font-size: 16.5px;
+    text-align: center;
+}
+
+.homeFlexRow {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.pageParent {
+    height: 100vh;
+    width: 100vw;
+    background: #1b263b;
+    padding: 20px 30px;
+    max-width: 100vw;
+}
+
+.pageParent, .panelAddData {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+.pageParent::-webkit-scrollbar, .panelAddData::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.panelFrame {
+    width: 100%;
+    background: #415a77;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.panelSubframe, .redHighlight, .yellowHighlight, .blueHighlight {
+    background: #778da9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.panelReadings {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.panelSubreading {
+    font-size: 13.5px;
+}
+
+.panelFrameCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+}
+
+.graph {
+    width: calc(100% - 300px);
+}
+
+.panelTitle {
+    display: flex;
+    justify-content: space-between;
+    background: #415a77;
+    margin: 5px 0px 20px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.panelTitle span {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.popupTitle {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.redHighlight {
+    background: rgba(100,0,0,0.7) !important;
+}
+
+.yellowHighlight {
+    background: rgba(255,125,100, 0.7);
+}
+
+.blueHighlight {
+    background: rgba(70, 130, 180, 0.7);
+}
+
+.panelAddData {
+    height: 400px;
+    overflow-y: scroll;
+    width: 450px;
+}
+
+.panelAddData div {
+    padding: 5px 0px 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panelAddData li {
+    padding: 3px 0px;
+    font-style: italic;
+}
+
+.panelForecast {
+    background: #415a77;
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+.panelForecast::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.forecastBlock {
+    background: #778da9;
+    color: #fff;
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3px 0px 10px;
+    margin: 0px 5px;
+}
+
+.forecastMin {
+    font-size: 22px;
+}
+
+.forecastSlash {
+    font-size: 22px;
+    padding: 0px 4px;
+}
+
+.forecastMax {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.forecastTitle {
+    font-size: 20px;
+}
+
+.forecastDate {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.forecastOffline {
+    font-size: 18px;
+    padding: 10px 0px;
+    color: #fff; 
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
