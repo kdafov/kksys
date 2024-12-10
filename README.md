@@ -1,3 +1,7 @@
+# Project overview
+
+This project is a real-time monitoring and control system for IoT-enabled devices, utilizing Socket.IO for live data updates and MQTT for device communication. It features a web interface built with React and Material-UI that displays sensor data (e.g., temperature, humidity, motion, rain) from two MCU devices, "Vhod" and "Naves," with functionality to view historical data, system status, and weather forecasts.
+
 # Naves – MCU + Arduino Controller (V3)
 
 ### Overview
