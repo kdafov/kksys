@@ -4,6 +4,8 @@ This project is a real-time monitoring and control system for IoT-enabled device
 
 # Naves – MCU + Arduino Controller (V3)
 
+![image](https://github.com/user-attachments/assets/b807df8b-5d26-4039-8769-ac29bf158846)
+
 ### Overview
 A combined Arduino and MCU-based system for data collection and MQTT communication. The Arduino collects sensor data and sends it to the MCU, which processes additional data and publishes changes to an MQTT pub/sub system. Data is sent only if the state changes. Wi-Fi credentials must be configured for new installations.
 
@@ -36,6 +38,8 @@ A combined Arduino and MCU-based system for data collection and MQTT communicati
 - **Control**: Hold the button for 3 seconds to halt (red light) or resume (green light).
 
 # Vhod – MCU (V2)
+
+![image](https://github.com/user-attachments/assets/5861692e-6ad2-45d3-b12f-6cf75d18b4ea)
 
 ### Overview
 An MCU module that collects sensor inputs and publishes changes to an MQTT broker. Data is sent only if the state changes. Wi-Fi credentials must be configured for new installations.
